@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
-ticker_symbol = "GOOGL"
+ticker_symbol = "SGE"
 
 ticker = yf.Ticker(ticker_symbol)
 income_statement = ticker.financials.T
